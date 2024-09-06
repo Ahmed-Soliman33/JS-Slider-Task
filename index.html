@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ahmed Soliman Slider</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <div class="slider-container">
+        <div class="slider">
+            <div class="slide"><img src="./images/kia_soul_2024_asset-carousel-3.jpg" alt="Image 1"></div>
+            <div class="slide"><img src="./images/kia_k5_2025_asset_carousel_09.jpeg" alt="Image 2"></div>
+            <div class="slide"><img src="./images/kia_k5_2025_asset_carousel_10.jpeg" alt="Image 3"></div>
+            <div class="slide"><img src="./images/kia_soul_2024_asset-carousel-5 (1).jpg" alt="Image 4"></div>
+            <div class="slide"><img src="./images/kia_k5_2025_asset_carousel_01.jpeg" alt="Image 5"></div>
+        </div>
+
+        <button class="prev" onclick="prevSlide()">&#10094;</button>
+        <button class="next" onclick="nextSlide()">&#10095;</button>
+
+        <div class="pagination">
+            <span class="dot" onclick="currentSlide(1)"></span>
+            <span class="dot" onclick="currentSlide(2)"></span>
+            <span class="dot" onclick="currentSlide(3)"></span>
+            <span class="dot" onclick="currentSlide(4)"></span>
+            <span class="dot" onclick="currentSlide(5)"></span>
+        </div>
+    </div>
+
+    <script src="./js/script.js"></script>
+</body>
+</html>
